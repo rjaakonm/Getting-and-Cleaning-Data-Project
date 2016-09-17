@@ -24,7 +24,7 @@ R script called run_analysis.R that does the following.
 
 Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#Analysis Script
+#Script Analysis 
 
 run_analysis.R: this script takes the input data, and creates the output file
 
