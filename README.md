@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-Data-Project
 
-Instructions
+#Instructions
  
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
@@ -20,19 +20,25 @@ R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Input
+#Input
 
 Data set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Analysis Script
+#Analysis Script
 
 run_analysis.R: this script takes the input data, and creates the output file
 
-The script first downloads and unzips the dataset from the above url. The script then reads the test and training sets, merges them (1). It filters down the mean and std features, and selects only these (2) It merges in the activity names for the activities (3) It then builds up a series of labeled columns to represent single variables from the feature. (4) It calculates the average of each variable and writes out this data set to tidy.txt (5)
+The script first downloads and unzips the dataset from the above url. 
+1. The script then reads the test and training sets and merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Output
+#Output
 
-Tidy dataset: tidy.txt
-Code Book
+Tidy dataset: tidydata.txt
 
-CodeBook.md: describes the variables, the data, and any transformations or work that you performed to clean up the data
+#Code Book
+
+CodeBook.md: describes the variables
