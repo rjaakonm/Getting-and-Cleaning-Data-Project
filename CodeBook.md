@@ -1,7 +1,7 @@
 Codebook
 ========
 
-Explaining the variables in TidyData.txt
+Explaining the variables in tidydata.txt
 ----------------------------------------
 
 Variable                                   | Comments
