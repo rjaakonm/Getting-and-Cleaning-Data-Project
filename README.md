@@ -41,4 +41,4 @@ Tidy dataset: tidydata.txt
 
 #Code Book
 
-CodeBook.md: describes the variables
+CodeBook.md: describes the variables of tidydata.txt
